@@ -1,8 +1,8 @@
 # gorm-gms
 
-gorm options for go-mysql-server
+gorm options for [go-mysql-server](https://github.com/dolthub/go-mysql-server)
 
-GMS(go-mysql-server) is good implementation for mysql-interface, so we most use it in unit tests.
+[GMS(go-mysql-server)](https://github.com/dolthub/go-mysql-server) is good implementation for mysql-interface, so we most use it in unit tests.
 
 But it is not thread safe and not support transaction, you could use this package to avoid those panic. 
 
